@@ -51,4 +51,8 @@
    ```
 > [!IMPORTANT]
 > And maybe before we start the next step, check out the changes by run **lsblk** command.
+5. Install the Base and Firmware
+   ```
+   pacstrap /mnt base linux linux-firmware
+   ```
 
