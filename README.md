@@ -33,3 +33,21 @@
    ```
 > [!NOTE]
 > For the **root** and **home** partitions, use any format u want . but who care.
+4. Mount a partitions & Activate swap
+- > for /root 
+   ```
+   mount /dev/sdXx /mnt
+   ```
+- > for home
+  ```
+   mkdir /mnt/home 
+   ```
+   ```
+   mount /dev/sdXx /mnt/home
+   ```
+- > for swap 
+   ```
+   mkswap on
+   ```
+
+
