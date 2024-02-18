@@ -19,3 +19,16 @@
    ```
    mkfs.fat -F32 /dev/sdXx 
    ```
+- > for /root 
+   ```
+   mkfs.ext4 /dev/sdXx 
+   ```
+- > for home 
+   ```
+   mkfs.ext4 /dev/sdXx 
+   ```
+- > for swap 
+   ```
+   mkfs.swap /dev/sdXx 
+   ```
+
