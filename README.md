@@ -49,5 +49,6 @@
    ```
    mkswap on
    ```
-
+> [!IMPORTANT]
+> And maybe before we start the next step, check out the changes by run **lsblk** command.
 
