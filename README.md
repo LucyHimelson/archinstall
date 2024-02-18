@@ -15,7 +15,7 @@
 > [!NOTE]
 > In addition, use any Linux partition editor you want. We usually use **cfdisk**.
 3. Formatting Disk Partition
-   - > for boot 
+- > for boot 
    ```
    mkfs.fat -F32 /dev/sdXx 
    ```
