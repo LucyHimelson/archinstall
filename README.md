@@ -9,5 +9,5 @@
    ```
 2. We will prepare the partitions as follows
     -**root**
-    -**home**
+    -** home**
     -**swap**
