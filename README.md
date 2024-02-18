@@ -1,6 +1,11 @@
 # archinstall
 > Oh, u seem to have forgotten how to do that, silly
 ### Well this method includes UEFI mode only
+> [!TIP]
+>You may have to use TimeX. Just install it now and later in chroot mode to make it easier to read a document
+   ```
+   pacman -Sy tumx --noconfirm 
+   ```
 ## Here we go
 
 1. Check ur hard disk 
