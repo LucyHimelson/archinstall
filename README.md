@@ -8,6 +8,6 @@
    lsblk 
    ```
 2. We will prepare the partitions as follows
-   **`#0969DA`root**
+   ** #0969DA root**
     **home**
     **swap**
