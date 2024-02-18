@@ -65,4 +65,10 @@
    ```
    pacstrap /mnt base linux linux-firmware
    ```
+6. Idk wat to call this step, just do it (Oh i remembered, This is to load partitions automatically upon booting)
+   
+   ```
+   genfstab -U /mnt >> /mnt/etc/fstab
+   ```
+   
 
