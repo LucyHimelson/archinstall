@@ -8,8 +8,14 @@
    lsblk 
    ```
 2. We will prepare the partitions as follows
+    - **boot**
     - **root**
     - **home**
     - **swap**   
 > [!NOTE]
 > In addition, use any Linux partition editor you want. We usually use **cfdisk**.
+3. Formatting Disk Partition
+> for boot 
+   ```
+   mkfs.fat -F32 /dev/sdXx 
+   ```
