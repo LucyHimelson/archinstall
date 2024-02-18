@@ -65,10 +65,66 @@
    ```
    pacstrap /mnt base linux linux-firmware
    ```
+   
 6. Idk wat to call this step, just do it (Oh i remembered, This is to load partitions automatically upon booting)
    
    ```
    genfstab -U /mnt >> /mnt/etc/fstab
    ```
    
+7. Arch-Chroot time
 
+   ```
+   arch-chroot /mnt 
+   ```
+> [!IMPORTANT]
+> If the command fails to execute, check a previous step.
+
+8. Set the time, key-lang, and a hostname
+
+   ```
+   In -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime
+   ```
+   ```
+   echo " en_US.UTF-8 UTF-8 >> /etc/local.gen"
+   ```
+   ```
+   echo -e "LANG=en_US.UTF-8\nLC_COLLATE=C.UTF-8" > /etc/locale.conf"
+   ```
+   ```
+   echo "your_hostname" > /etc/hostname
+   ```
+   ```
+   echo -e "127.0.0.1\tlocalhost.localdomin\tarchPc" > /etc/hosts
+   ```
+9. Enable Network
+
+   ```
+   pacman -S networkManager --noconfirm
+   ```
+   ```
+   systemctl enable NetworkManager
+   ```
+10. Set root password
+   ```
+   passwd
+   ```
+11. Installing **grub**&**EFI boot manager**
+   ```
+   pacamn -S grub efibootmgr --noconfirm
+   ```
+12. Create efi directory & mount it
+
+- > Load the partition you previously selected for the boot
+   ```
+   mkdir /boot/efi && mount /dev/sdXb
+   ```
+13. run this
+   ```
+   grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB --removable && grub-mkconfig -o /boot/grub/grub.cfg && exit
+   ```
+14.last but not least
+
+   ```
+   umount -R /mnt & reboot
+   ```
