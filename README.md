@@ -12,5 +12,5 @@
     - **home**
     - **swap**
     - In addition, use any Linux partition editor you want. We usually use **cfdisk**
-    - > [!NOTE]
+> [!NOTE]
 > Useful information that users should know, even when skimming content.
