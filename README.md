@@ -11,9 +11,11 @@
     - **boot**
     - **root**
     - **home**
-    - **swap**   
+    - **swap**
+ 
 > [!NOTE]
 > In addition, use any Linux partition editor you want. We usually use **cfdisk**.
+ 
 3. Formatting Disk Partition
 - > for boot 
    ```
@@ -33,7 +35,9 @@
    ```
 > [!NOTE]
 > For the **root** and **home** partitions, use any format u want . but who care.
+
 4. Mount a partitions & Activate swap
+
 - > for /root 
    ```
    mount /dev/sdXx /mnt
@@ -51,7 +55,9 @@
    ```
 > [!IMPORTANT]
 > And maybe before we start the next step, check out the changes by run **lsblk** command.
+
 5. Install the Base and Firmware
+   
    ```
    pacstrap /mnt base linux linux-firmware
    ```
