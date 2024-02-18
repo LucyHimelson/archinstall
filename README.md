@@ -10,8 +10,6 @@
 2. We will prepare the partitions as follows
     - **root**
     - **home**
-    - **swap**
-    - In addition, use any Linux partition editor you want. We usually use **cfdisk**
-   
+    - **swap**   
 > [!NOTE]
-> Useful information that users should know, even when skimming content.
+> In addition, use any Linux partition editor you want. We usually use **cfdisk**.
