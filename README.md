@@ -7,6 +7,7 @@
    ```
    lsblk 
    ```
-2. We will prepare the partitions as follows   **root**
-    **home**
-    **swap**
+2. We will prepare the partitions as follows
+    -**root**
+    -**home**
+    -**swap**
