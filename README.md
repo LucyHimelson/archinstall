@@ -31,4 +31,5 @@
    ```
    mkfs.swap /dev/sdXx 
    ```
-
+- > [!NOTE]
+- > In addition, use any Linux partition editor you want. We usually use **cfdisk**.
