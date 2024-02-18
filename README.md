@@ -31,5 +31,5 @@
    ```
    mkfs.swap /dev/sdXx 
    ```
-- > [!NOTE]
-- > In addition, use any Linux partition editor you want. We usually use **cfdisk**.
+> [!NOTE]
+> For the **root** and **home** partitions, use any format u want . but who care.
