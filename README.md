@@ -11,4 +11,4 @@
     - **root**
     - **home**
     - **swap**
-   In addition, use any Linux partition editor you want. We usually use **cfdisk**
+    - In addition, use any Linux partition editor you want. We usually use **cfdisk**
