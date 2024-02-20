@@ -6,6 +6,11 @@
    ```
    pacman -Sy tumx --noconfirm 
    ```
+> Before we start, this is the easiest way for me to burn an iso
+
+   ```
+   sudo dd bs=4M if=file.iso of=/dev/sdX conv=fdatasync status=progress && sync
+   ```
 ## Here we go
 
 1. Check ur hard disk 
