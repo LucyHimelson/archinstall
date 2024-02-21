@@ -2,10 +2,12 @@
 > Oh, u seem to have forgotten how to do that, silly
 ### Well this method includes UEFI mode only
 > [!TIP]
->You may have to use tumx. Just install it now and later in chroot mode to make it easier to read a document
+>You may have to use tmux and vim. Just install it now and later in chroot mode to make it easier to read a document. (vim is already installed in the ISO)
    ```
-   pacman -Sy tumx --noconfirm 
+   pacman -Sy tmux --noconfirm 
    ```
+> If you don't know how to use tmux, check this out **[simple-tmux](https://github.com/LucyHimelson/simpletmux)**
+
 > Before we start, this is the easiest way for me to burn an iso
 
    ```
