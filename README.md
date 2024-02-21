@@ -11,7 +11,7 @@
    pacman -Sy tmux curl --noconfirm 
    ```
 
-> To Download README.md by curl
+> To download README.md by Curl.
 
   ```
    curl -O https://raw.githubusercontent.com/LucyHimelson/archinstall/main/README.md
