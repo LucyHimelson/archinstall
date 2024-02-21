@@ -174,7 +174,7 @@
    grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB --removable && grub-mkconfig -o /boot/grub/grub.cfg && exit
    ```
 
-14.last but not least
+14. last but not least
 
    ```
    umount -R /mnt & reboot
